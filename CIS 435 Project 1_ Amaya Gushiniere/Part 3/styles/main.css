@@ -1,0 +1,88 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1{
+    text-indent: 50px;
+    font-size: 40px;
+}
+
+h1::first-letter{
+    font-size: 47px;
+}
+
+h3{
+    text-indent: 50px;
+    font-size: 20px;
+}
+
+h3::first-letter{
+    font-size: 27px;
+}
+
+a:link{
+    color: orange;
+}
+a:visited{
+    color: orange;
+}
+a:hover{
+    color: green;
+}
+
+ul li{
+    margin: 7px 0;
+}
+
+header{
+    margin-top: 0px;
+    border-bottom: 5px solid blue;
+    margin-bottom: 5px;
+    background: linear-gradient(45deg, white 0%, rgb(96, 168, 96) 50%, black 100%);
+}
+
+footer{
+    font-size: 10px;
+    text-align: center;
+    border-top: 5px solid blue;
+    background: linear-gradient(45deg, black 0%, rgb(96, 168, 96) 50%,white 100%);
+    padding: 7px;
+}
+
+h1.store_title{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+img.animals_pic{
+    float: left;
+    width: auto;
+    height: 250px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+body{
+    width: 800px;
+    background-color: white;
+    border: 5px solid blue;
+    margin: auto;
+    box-shadow: 3px 3px 4px grey;
+}
+
+html{
+    background-image: url(../images/paw_paper.jpg);
+}
+
+p{
+    margin: 15px;
+    text-align: justify;
+}
+
+nav{
+    text-align: center;
+    padding: 10px;
+}
